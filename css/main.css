@@ -1,3 +1,36 @@
 html {
   font-family: "Overpass", sans-serif;
+  color: #fff;
+}
+
+section {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+.btn-ghost {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: .5em;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff5e3a;
+}
+
+li:first-child,
+li:nth-child(2) {
+  border-bottom: 1px solid #fff;
+}
+
+@media only screen and (min-width:60em) {
+
+  li:first-child,
+  li:nth-child(2) {
+    border-bottom: none;
+    border-right: 1px solid #fff;
+  }
+
 }
