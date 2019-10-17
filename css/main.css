@@ -1,5 +1,5 @@
 html {
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   color: #fff;
 }
 
@@ -14,7 +14,7 @@ section {
   padding: .5em;
 }
 
-.btn-ghost:hover {
+.btn:hover {
   background-color: #fff;
   border-color: #fff;
   color: #ff5e3a;
@@ -22,15 +22,15 @@ section {
 
 li:first-child,
 li:nth-child(2) {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width: 60em) {
 
   li:first-child,
   li:nth-child(2) {
     border-bottom: none;
-    border-right: 1px solid #fff;
+    border-right: 1px solid rgba(255, 255, 255, 1);
   }
 
 }
